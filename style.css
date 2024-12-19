@@ -113,3 +113,15 @@ header a {
     transform: translateX(-50%);
     text-align: center;
 }
+
+.foot {
+    display: inline;
+    position: relative;
+    top: 36px;
+}
+
+.foot p {
+    font-family: vagafont, Times, serif;
+    background-color: black;
+    color: white;
+}
