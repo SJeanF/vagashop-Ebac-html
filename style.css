@@ -11,6 +11,20 @@
     box-sizing: border-box;
 }
 
+header,
+.containerWB h2,
+#paragraphs p,
+footer p,
+.containerCTT h2,
+#contact h2,
+form button,
+.containerCTT h3,
+.endereco{
+    font-family: vagafont, Times, serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
 header {
     display: flex;
     flex-wrap: wrap;
@@ -78,6 +92,10 @@ header a {
     text-align: center;
 }
 
+.containerWB {
+    border: 1px black solid;
+}
+
 .containerWB img {
     height: 64px;
 }
@@ -114,14 +132,153 @@ header a {
     text-align: center;
 }
 
-.foot {
+.amazon {
+    position: relative;
+    left: -15px;
+}
+
+.luiza {
+    position: relative;
+    left: -27px;
+}
+
+.livre {
+    position: relative;
+    left: -54px;
+}
+
+.panini {
+    position: relative;
+    left: -24px;
+}
+
+.shopee {
+    position: relative;
+    left: 21px;
+}
+
+.faleconosco {
+    position: relative;
+    top: 10px;
+    background-color: black;
+    width: 350px;
+    height: 260px;
+}
+
+#contact h2 {
+    position: absolute;
+    bottom: -380px;
+    left: 20px;
+    font-size: 32px;
+
+}
+
+.containerCTT {
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 300px;
+}
+
+.containerCTT > h2 {
+    position: absolute;
+    font-size: 32px;
+    top: -15px;
+    left: 25px;
+    
+}
+
+.containerCTT h3 {
+    color: white;
+    position: relative;
+    top: 10px;    
+    left: 110px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    position: relative;
+    left: 10px;
+    top: 20px; 
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 310px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    border: none;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.social-mideas {
+    background-color: black;
+    justify-content: center;
+}
+
+.social-mideas h3 {
+    position: relative;
+    left: -4px;
+}
+
+.social-mideas img{
+    height: 32px;
+}
+
+.social-mideas li {
+    display: inline;
+}
+
+.social-mideas ul {
+    position: relative;
+    top: 30px;
+}
+
+.endereco {
+    position: relative;
+    right: 10px;
+    display: grid;
+    grid-template-rows: 30px 100%;
+    flex-direction: column;
+    color: white;
+    justify-items: center;
+}
+
+.endereco h3{
+    position: relative;
+    justify-items: center;
+}
+
+.endereco p {
+    grid-row: 2;
+}
+
+footer {
     display: inline;
     position: relative;
-    top: 36px;
+    top: 40px;
+
 }
 
 .foot p {
-    font-family: vagafont, Times, serif;
     background-color: black;
     color: white;
 }
